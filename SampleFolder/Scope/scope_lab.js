@@ -1,5 +1,5 @@
 "use strict"; 
-/* enables Strict Mode in JavaScript. It helps you write safer code by catching certain 
+    /* enables Strict Mode in JavaScript. It helps you write safer code by catching certain 
    mistakes that JavaScript might otherwise allow*/
    /* Strict mode makes JavaScript less forgiving of certain mistakes, 
    helping you catch bugs earlier. It does not change let, const, or var scope rules. */
@@ -53,9 +53,9 @@ show();
 }
 
 practiceVar = "Var reassigning outside block";
-practiceLet = "Let reassigning outside block";
-practiceConst = "Const reassigning outside block";
+// practiceLet = "Let reassigning outside block"; //scope_lab.js:56 Uncaught ReferenceError: practiceLet is not defined
+// practiceConst = "Const reassigning outside block"; //Uncaught ReferenceError: practiceConst is not defined
 
 console.log(practiceVar);
-console.log(practiceLet);
-console.log(practiceConst);
+// console.log(practiceLet);
+// console.log(practiceConst);
