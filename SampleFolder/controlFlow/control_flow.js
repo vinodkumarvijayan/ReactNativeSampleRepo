@@ -40,3 +40,30 @@ switch (userType) {
         userCategory = "Unknown";
 }
 console.log("User Category:", userCategory);
+
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+console.log("Authentication Status:", authenticationStatus);
+
+//Practice
+let role = "Enrolled Member";
+
+if (role === "Employee") {
+    console.log("You have access to Dietary Services.");
+
+} else if (role === "Enrolled Member") {
+    console.log(
+        "You have access to Dietary Services and one-on-one dietician interaction."
+    );
+
+} else if (role === "Subscriber") {
+    console.log("You have partial access to Dietary Services.");
+
+} else if (role === "Non-Subscriber") {
+    console.log(
+        "Please enroll or subscribe to access Dietary Services."
+    );
+
+} else {
+    console.log("Invalid role. Please check your role.");
+}
