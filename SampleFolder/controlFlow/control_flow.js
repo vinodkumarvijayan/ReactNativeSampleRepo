@@ -67,3 +67,16 @@ if (role === "Employee") {
 } else {
     console.log("Invalid role. Please check your role.");
 }
+
+const add = function(a, b) {
+    console.log(a + b);
+};
+
+add(3, 4);
+
+const adding = function(a, b) {
+    return a + b;
+};
+
+const result = adding(3, 4);
+console.log(result);
